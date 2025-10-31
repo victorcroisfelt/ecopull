@@ -2,7 +2,7 @@
 
 This is a research-oriented code package that is primarily intended to allow readers to replicate the results of the article mentioned below and also encourage and accelerate further research on this topic:
 
-M. Thorsager, V. Croisfelt, J. Shiraishi, and P. Popovski, ``EcoPull: Sustainable IoT Image Retrieval Empowered by TinyML Models,'' GLOBECOM 2024 - 2024 IEEE Global Communications Conference, Cape Town, South Africa, 2024, pp. 5066-5071, doi: 10.1109/GLOBECOM52923.2024.10901782.
+M. Thorsager, V. Croisfelt, J. Shiraishi, and P. Popovski, “EcoPull: Sustainable IoT Image Retrieval Empowered by TinyML Models,” GLOBECOM 2024 - 2024 IEEE Global Communications Conference, Cape Town, South Africa, 2024, pp. 5066-5071, doi: 10.1109/GLOBECOM52923.2024.10901782.
 
 A pre-print version is available on arXiv: [https://arxiv.org/abs/2304.10858](https://arxiv.org/abs/2404.14236).
 
@@ -20,4 +20,4 @@ This paper introduces EcoPull, a sustainable Internet of Things (IoT) framework 
 This code is subject to the MIT license. If you use any part of this repository for research, please consider citing our aforementioned work.
 
 ## Acknowledgement
-This work was supported by the Villum Investigator Grant ``WATER'' from the Velux Foundation, Denmark, and by the SNS JU project 6G-GOALS under the EU's Horizon Europe program under Grant Agreement No~101139232.}
+This work was supported by the Villum Investigator Grant “WATER” from the Velux Foundation, Denmark, and by the SNS JU project 6G-GOALS under the EU's Horizon Europe program under Grant Agreement No~101139232.}
