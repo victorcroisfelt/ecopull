@@ -19,5 +19,19 @@ This paper introduces EcoPull, a sustainable Internet of Things (IoT) framework 
 ## Citing this Repository and License
 This code is subject to the MIT license. If you use any part of this repository for research, please consider citing our aforementioned work.
 
+```bibtex
+  @INPROCEEDINGS{10901782,
+  author={Thorsager, Mathias and Croisfelt, Victor and Shiraishi, Junya and Popovski, Petar},
+  booktitle={GLOBECOM 2024 - 2024 IEEE Global Communications Conference}, 
+  title={EcoPull: Sustainable IoT Image Retrieval Empowered by TinyML Models}, 
+  year={2024},
+  volume={},
+  number={},
+  pages={5066-5071},
+  keywords={Energy consumption;Image coding;Biological system modeling;Tiny machine learning;Image retrieval;Mathematical models;Data models;Numerical models;Internet of Things;Data communication;IoT Networks;TinyML;image retrieval;generative AI;medium access control},
+  doi={10.1109/GLOBECOM52923.2024.10901782}
+}
+```
+
 ## Acknowledgement
 This work was supported by the Villum Investigator Grant “WATER” from the Velux Foundation, Denmark, and by the SNS JU project 6G-GOALS under the EU's Horizon Europe program under Grant Agreement No.101139232.
