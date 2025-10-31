@@ -20,4 +20,4 @@ This paper introduces EcoPull, a sustainable Internet of Things (IoT) framework 
 This code is subject to the MIT license. If you use any part of this repository for research, please consider citing our aforementioned work.
 
 ## Acknowledgement
-This work was supported by the Villum Investigator Grant “WATER” from the Velux Foundation, Denmark, and by the SNS JU project 6G-GOALS under the EU's Horizon Europe program under Grant Agreement No~101139232.}
+This work was supported by the Villum Investigator Grant “WATER” from the Velux Foundation, Denmark, and by the SNS JU project 6G-GOALS under the EU's Horizon Europe program under Grant Agreement No.101139232.
