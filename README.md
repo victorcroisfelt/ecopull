@@ -20,7 +20,7 @@ This paper introduces EcoPull, a sustainable Internet of Things (IoT) framework 
 This code is subject to the MIT license. If you use any part of this repository for research, please consider citing our work.
 
 ```bibtex
-  @INPROCEEDINGS{10901782,
+@INPROCEEDINGS{10901782,
   author={Thorsager, Mathias and Croisfelt, Victor and Shiraishi, Junya and Popovski, Petar},
   booktitle={GLOBECOM 2024 - 2024 IEEE Global Communications Conference}, 
   title={EcoPull: Sustainable IoT Image Retrieval Empowered by TinyML Models}, 
