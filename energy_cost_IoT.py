@@ -2,6 +2,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 from matplotlib import colors
 
+# Parameters
 E_MUAC = 3.7 # cost of MUAC operation in pJ
 E_m = 2*3.7 
 E_d = 128*3.7 # cost of d-ram access
@@ -46,10 +47,6 @@ def getRateSavings(rate):
     return savings, (C_ir+E_i+E_HWd)/C_i 
 
 
-
-
-
-
 def getSavings(I=[640,480]):
 
     # small model
@@ -91,18 +88,27 @@ def main():
     # rateSavings = np.asarray(getRateSavings([rate*10**3 for rate in range(100,1000)]))
     thresh = min(range(len(rateSavings[:,0])), key=lambda i: abs(rateSavings[i,0]))
     print(thresh*10**3)
+    
     plt.plot([x*10**3 for x in range(100,maxRate)], rateSavings[:,0], label="Energy saved using prompts")
     plt.vlines(x=(thresh*10**3), ymin=min(min(rateSavings[:,0]),0), ymax=rateSavings[thresh][0], colors=['tab:orange'], ls="--", label="Energy savings threshold")
+    
     plt.xlabel("Datarate")
     plt.ylabel("Energy saving [J]")
+    
     plt.legend()
-    plt.savefig("Results/dataRateThreshold.pdf")
+    
+    plt.savefig("results/dataRateThreshold.pdf")
+    
     plt.clf()
+    
     plt.plot([x*10**3 for x in range(100,thresh)], rateSavings[100:thresh,1]*100)
+    
     plt.xlabel("Datarate")
     plt.ylabel("Relative energy cost [%]")
+    
     # plt.legend()
-    plt.savefig("Results/datarateRelativeCost.pdf")
+    
+    plt.savefig("results/datarateRelativeCost.pdf")
     plt.clf()
 
 if __name__ == "__main__":
