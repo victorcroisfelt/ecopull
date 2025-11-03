@@ -14,7 +14,10 @@ If you have any questions or if you have encountered any inconsistencies, please
 This paper introduces EcoPull, a sustainable Internet of Things (IoT) framework powered by Tiny Machine Learning (TinyML) models for efficient image retrieval from multiple devices. The devices are equipped with two types of TinyML models: i) a behavior model and ii) an image compressor model. The behavior model filters out irrelevant images based on the current task, minimizing unnecessary data transmission and reducing communication resource competition among devices. The image compressor model enables devices to communicate with the edge server (ES) using latent representations of images, thereby reducing communication bandwidth usage. While integrating TinyML models into IoT devices does increase energy consumption due to the inference process, this cost is carefully accounted for in our design. Numerical results show that the proposed framework can achieve over 77% and 43% energy savings compared to the simple offloading and a state-of-the-art baseline while still maintaining the quality of the retrieved images at the ES.
 
 ## Content
-
+This package includes three main scripts that simulate energy consumption using the integrated communication-computation energy consumption model introduced in the paper under three different scenarios:
+- `energy_cost_HiFiC.py`: simulates baseline energy consumption.
+- `energy_cost_IoT.py`: simulates the energy consumption of a single IoT user within the EcoPull framework.
+- `energy_cost_multi_IoT.py`: simulates the energy consumption of multiple IoT transmitting users within the EcoPull framework, while also evaluating the random access scheme triggered by semantic queries.
 
 ## Citing this Repository and License
 This code is subject to the MIT license. If you use any part of this repository for research, please consider citing our work.
